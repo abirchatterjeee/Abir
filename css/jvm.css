@@ -1,0 +1,139 @@
+body {
+  margin: 0;
+  background: linear-gradient(to bottom, white 0%, #66ccff 100%);
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  color: #32e0c4;
+  margin-top: 0;
+  font-size: 400%;
+  font-family: 'Sacramento', cursive;
+}
+
+.dpabir {
+  width: 20;
+  margin: 0 auto 0 auto;
+  padding-top: 80px;
+}
+
+.rbn {
+  position: absolute;
+  margin-left: 300px;
+}
+
+p {
+  font-family: 'Merienda', cursive;
+}
+
+h2 {
+  color: #00416d;
+  font-family: 'David Libre', serif;
+  font-size: 200%;
+}
+
+h3 {
+  color: #056676;
+  font-family: 'David Libre', serif;
+}
+
+h4 {
+  color: #7579e7;
+  font-family: 'Merienda', cursive;
+}
+
+h5 {
+  font-family: 'David Libre', serif;
+}
+
+hr {
+  border-style: none;
+  border-top: dotted;
+  border-color: grey;
+  border-width: 5px;
+  width: 4%;
+  margin: 100px auto 100px auto;
+}
+
+.cpl {
+  width: 50%;
+  margin: 200px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.pl {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.wd {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.cp {
+  color: grey;
+  text-align: right;
+  margin-right: 30px;
+}
+
+.cm {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.btn {
+  margin: 50px auto 50px;
+  box-shadow: inset 0px -1px 9px 0px #b7c6f0;
+  background-color: transparent;
+  border-radius: 21px;
+  border: 3px solid #4e6096;
+  display: inline-block;
+  cursor: pointer;
+  color: #406fe6;
+  font-family: "David Libre", Arial;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 6px 26px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #283966;
+
+  &:hover {
+    background-color: transparent;
+  }
+
+  &:active {
+    position: relative;
+    top: 1px;
+  }
+}
+
+.bottom-container {
+  background-color: #9ab3f5;
+  padding: 50px 0 20px;
+}
+
+a {
+  color: #7579e7;
+  font-family: 'Merienda', cursive;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover{
+  color: blue;
+}
+.cp{
+  color: #EAF6F6;
+  text-align: right;
+  padding-right: 30px;
+}
+.pta{
+  text-align: right;
+  padding-top: 30%;
+  padding-right: 30px;
+  padding-bottom: 2%
+}
