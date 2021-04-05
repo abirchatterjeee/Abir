@@ -6,9 +6,15 @@
   <link rel="stylesheet" href="css/jvm.css">
   <title>Abir's Site</title>
   <link rel="icon" href="la.png">
+
 </head>
 
-<body>
+<body onload="myFunction()" style="margin:0;">
+
+<div id="loader"></div>
+
+<div style="display:none;" id="myDiv" class="animate-bottom">
+
   <img class="rbn" src="r up1.png" alt="">
   <div class="dpabir">
     <img src="abir2.png" alt="">
@@ -55,6 +61,21 @@
       <a class="footer-link" href="https://www.youtube.com/channel/UCBUUeTvkyO2xjsCM4am4ZCw">youtube channel</a>
       <p class="cp">© 2020 Abir Chatterjee.</p>
     </div>
+    </div>
+
+    <script>
+    var myVar;
+
+    function myFunction() {
+      myVar = setTimeout(showPage, 3000);
+    }
+
+    function showPage() {
+      document.getElementById("loader").style.display = "none";
+      document.getElementById("myDiv").style.display = "block";
+    }
+    </script>
+
 </body>
 
 </html>
